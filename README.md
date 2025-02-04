@@ -1,6 +1,6 @@
-# HateBRXplain
+## HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese
 
-A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese
+This repository is the official implementation of the COLING 2025 Paper entitled ["HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese"](https://aclanthology.org/2025.coling-main.446/) written by [Isadora Salles](https://github.com/isadorasalles), [Francielle Vargas](https://github.com/franciellevargas), and [Fabrício Benevenuto](https://dcc.ufmg.br/professor/fabricio-benevenuto-de-souza/).
 
 ## Overview
 
@@ -18,3 +18,13 @@ Nowadays, hate speech technologies are surely relevant in Brazil. Nevertheless, 
 * To run the classifiers, you can find the required dependencies listed within each classifier notebook located in the `./classifiers` directory. 
 
 * Experiments using SHAP and LIME are located in the `./explainability` directory, while the evaluation of explainability can be found in the `./metrics` directory.
+
+
+## Citations
+If you find this code useful in your work, please cite our paper:
+
+```
+Salles, I., Vargas, F., Benevenuto, F. (2025). 
+HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese. 
+In: Proceedings of the 31st International Conference on Computational Linguistics. 
+```
